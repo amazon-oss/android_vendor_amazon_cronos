@@ -10,6 +10,13 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/cronos/proprietary/lib/libasp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libasp.so \
     vendor/amazon/cronos/proprietary/lib/libaspclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaspclient.so \
     vendor/amazon/cronos/proprietary/lib/libsmartvolume.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsmartvolume.so \
+    vendor/amazon/cronos/proprietary/system/etc/firmware/SMicBin_rt5518_mode1.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode1.dat \
+    vendor/amazon/cronos/proprietary/system/etc/firmware/SMicBin_rt5518_mode2.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode2.dat \
+    vendor/amazon/cronos/proprietary/system/etc/firmware/SMicBin_rt5518_mode3.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode3.dat \
+    vendor/amazon/cronos/proprietary/system/etc/firmware/SMicBin_rt5518_mode4.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode4.dat \
+    vendor/amazon/cronos/proprietary/system/etc/firmware/SMicBin_rt5518_mode5.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode5.dat \
+    vendor/amazon/cronos/proprietary/system/etc/firmware/SMicBin_rt5518_mode6.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode6.dat \
+    vendor/amazon/cronos/proprietary/system/etc/firmware/gt9xx_fw.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gt9xx_fw.bin \
     vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/AFE.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/AFE.cfg \
     vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/EQ_100.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/EQ_100.cfg \
     vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/EQ_40.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/EQ_40.cfg \
