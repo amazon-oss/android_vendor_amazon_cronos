@@ -17,6 +17,10 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/cronos/proprietary/system/etc/firmware/SMicBin_rt5518_mode5.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode5.dat \
     vendor/amazon/cronos/proprietary/system/etc/firmware/SMicBin_rt5518_mode6.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode6.dat \
     vendor/amazon/cronos/proprietary/system/etc/firmware/gt9xx_fw.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gt9xx_fw.bin \
+    vendor/amazon/cronos/proprietary/system/lib/libedgeflow_core_neon.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libedgeflow_core_neon.so \
+    vendor/amazon/cronos/proprietary/system/lib/liblatencybenchmarker.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblatencybenchmarker.so \
+    vendor/amazon/cronos/proprietary/system/lib/libmediaextension.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmediaextension.so \
+    vendor/amazon/cronos/proprietary/system/lib/libtensorflowlite_c.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtensorflowlite_c.so \
     vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/AFE.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/AFE.cfg \
     vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/EQ_100.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/EQ_100.cfg \
     vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/EQ_40.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/EQ_40.cfg \
