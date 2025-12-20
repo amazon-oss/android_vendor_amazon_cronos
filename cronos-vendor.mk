@@ -20,8 +20,10 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/cronos/proprietary/lib/libasp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libasp.so \
     vendor/amazon/cronos/proprietary/lib/libaspclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaspclient.so \
     vendor/amazon/cronos/proprietary/lib/libsmartvolume.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsmartvolume.so \
+    vendor/amazon/cronos/proprietary/system/lib/libedgeflow_core_neon.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libedgeflow_core_neon.so \
     vendor/amazon/cronos/proprietary/system/lib/liblatencybenchmarker.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblatencybenchmarker.so \
     vendor/amazon/cronos/proprietary/system/lib/libmediaextension.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmediaextension.so \
+    vendor/amazon/cronos/proprietary/system/lib/libtensorflowlite_c.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtensorflowlite_c.so \
     vendor/amazon/cronos/proprietary/vendor/firmware/EEPROM_MT7668.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/EEPROM_MT7668.bin \
     vendor/amazon/cronos/proprietary/vendor/firmware/TxPwrLimit_MT76x8.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/TxPwrLimit_MT76x8.dat \
     vendor/amazon/cronos/proprietary/vendor/firmware/WIFI_RAM_CODE2_SDIO_MT7668.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE2_SDIO_MT7668.bin \
