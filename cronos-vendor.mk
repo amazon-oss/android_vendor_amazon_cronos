@@ -7,50 +7,21 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/amazon/cronos/proprietary/etc/audio_device.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_device.xml \
+    vendor/amazon/cronos/proprietary/etc/audio_device_max98396.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_device_max98396.xml \
+    vendor/amazon/cronos/proprietary/etc/audio_device_rt5616.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_device_rt5616.xml \
+    vendor/amazon/cronos/proprietary/etc/audio_device_tas5805m.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_device_tas5805m.xml \
+    vendor/amazon/cronos/proprietary/etc/firmware/SMicBin_rt5518_mode1.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode1.dat \
+    vendor/amazon/cronos/proprietary/etc/firmware/SMicBin_rt5518_mode2.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode2.dat \
+    vendor/amazon/cronos/proprietary/etc/firmware/SMicBin_rt5518_mode3.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode3.dat \
+    vendor/amazon/cronos/proprietary/etc/firmware/SMicBin_rt5518_mode4.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode4.dat \
+    vendor/amazon/cronos/proprietary/etc/firmware/SMicBin_rt5518_mode5.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode5.dat \
+    vendor/amazon/cronos/proprietary/etc/firmware/SMicBin_rt5518_mode6.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode6.dat \
+    vendor/amazon/cronos/proprietary/etc/firmware/gt9xx_fw.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gt9xx_fw.bin \
     vendor/amazon/cronos/proprietary/lib/libasp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libasp.so \
     vendor/amazon/cronos/proprietary/lib/libaspclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaspclient.so \
     vendor/amazon/cronos/proprietary/lib/libsmartvolume.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsmartvolume.so \
-    vendor/amazon/cronos/proprietary/system/etc/firmware/SMicBin_rt5518_mode1.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode1.dat \
-    vendor/amazon/cronos/proprietary/system/etc/firmware/SMicBin_rt5518_mode2.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode2.dat \
-    vendor/amazon/cronos/proprietary/system/etc/firmware/SMicBin_rt5518_mode3.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode3.dat \
-    vendor/amazon/cronos/proprietary/system/etc/firmware/SMicBin_rt5518_mode4.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode4.dat \
-    vendor/amazon/cronos/proprietary/system/etc/firmware/SMicBin_rt5518_mode5.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode5.dat \
-    vendor/amazon/cronos/proprietary/system/etc/firmware/SMicBin_rt5518_mode6.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/SMicBin_rt5518_mode6.dat \
-    vendor/amazon/cronos/proprietary/system/etc/firmware/gt9xx_fw.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/gt9xx_fw.bin \
-    vendor/amazon/cronos/proprietary/system/lib/libedgeflow_core_neon.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libedgeflow_core_neon.so \
     vendor/amazon/cronos/proprietary/system/lib/liblatencybenchmarker.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblatencybenchmarker.so \
     vendor/amazon/cronos/proprietary/system/lib/libmediaextension.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmediaextension.so \
-    vendor/amazon/cronos/proprietary/system/lib/libtensorflowlite_c.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtensorflowlite_c.so \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/AFE.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/AFE.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/EQ_100.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/EQ_100.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/EQ_40.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/EQ_40.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/EQ_60.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/EQ_60.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/EQ_80.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/EQ_80.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/EdgeflowModelConfig.json:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/EdgeflowModelConfig.json \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/MBCL_10percent.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/MBCL_10percent.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/MBCL_20percent.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/MBCL_20percent.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/MBCL_VOIP.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/MBCL_VOIP.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/MBCL_default.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/MBCL_default.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/Tap_AEC_mic1.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/Tap_AEC_mic1.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/Tap_AEC_mic2.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/Tap_AEC_mic2.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/UserEQ.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/UserEQ.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/VOIPRxParametricEQ.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/VOIPRxParametricEQ.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/VOIPTxParametricEQ.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/VOIPTxParametricEQ.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/asp.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/asp.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/coefs_FBF.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/coefs_FBF.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/coefs_FBFV2_LowLatency_7beams.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/coefs_FBFV2_LowLatency_7beams.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/coefs_FilterBank_160.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/coefs_FilterBank_160.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/coefs_FilterBank_640.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/coefs_FilterBank_640.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/coefs_FilterBank_AnaSyn_M512_D128_Lh512.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/coefs_FilterBank_AnaSyn_M512_D128_Lh512.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/coefs_FilterBank_AnalysisSynthesis_768cvxGLow.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/coefs_FilterBank_AnalysisSynthesis_768cvxGLow.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/dtd_cpd_priors.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/dtd_cpd_priors.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/es_cpd_priors.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/es_cpd_priors.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/hamming512_earcon.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/hamming512_earcon.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/hanning_320.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/hanning_320.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/ue_cpd_priors.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/ue_cpd_priors.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/vad_cpd_priors.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/vad_cpd_priors.cfg \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/vad_lite.tflite:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/vad_lite.tflite \
-    vendor/amazon/cronos/proprietary/system/vendor/etc/audio-algorithms/vss_cpd_priors.cfg:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/audio-algorithms/vss_cpd_priors.cfg \
     vendor/amazon/cronos/proprietary/vendor/firmware/EEPROM_MT7668.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/EEPROM_MT7668.bin \
     vendor/amazon/cronos/proprietary/vendor/firmware/TxPwrLimit_MT76x8.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/TxPwrLimit_MT76x8.dat \
     vendor/amazon/cronos/proprietary/vendor/firmware/WIFI_RAM_CODE2_SDIO_MT7668.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE2_SDIO_MT7668.bin \
@@ -58,6 +29,27 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/cronos/proprietary/vendor/firmware/mt7668_patch_e2_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt7668_patch_e2_hdr.bin \
     vendor/amazon/cronos/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
     vendor/amazon/cronos/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/AFE.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/AFE.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/EQ_100.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/EQ_100.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/EQ_40.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/EQ_40.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/EQ_60.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/EQ_60.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/EQ_80.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/EQ_80.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/MBCL_10percent.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/MBCL_10percent.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/MBCL_20percent.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/MBCL_20percent.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/MBCL_VOIP.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/MBCL_VOIP.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/MBCL_default.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/MBCL_default.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/Tap_AEC_mic1.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/Tap_AEC_mic1.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/Tap_AEC_mic2.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/Tap_AEC_mic2.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/UserEQ.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/UserEQ.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/VOIPRxParametricEQ.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/VOIPRxParametricEQ.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/VOIPTxParametricEQ.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/VOIPTxParametricEQ.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/asp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/asp.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/coefs_FBF.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/coefs_FBF.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/coefs_FilterBank_160.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/coefs_FilterBank_160.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/coefs_FilterBank_640.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/coefs_FilterBank_640.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/coefs_FilterBank_AnalysisSynthesis_1024.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/coefs_FilterBank_AnalysisSynthesis_1024.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/hamming512_earcon.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/hamming512_earcon.cfg \
+    vendor/amazon/cronos/proprietary/vendor/etc/audio-algorithms/hanning_320.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio-algorithms/hanning_320.cfg \
     vendor/amazon/cronos/proprietary/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
     vendor/amazon/cronos/proprietary/vendor/etc/audio_em.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_em.xml \
     vendor/amazon/cronos/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
