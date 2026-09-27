@@ -6,6 +6,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/amazon/cronos
 
 PRODUCT_COPY_FILES += \
+    vendor/amazon/cronos/proprietary/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
+    vendor/amazon/cronos/proprietary/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
+    vendor/amazon/cronos/proprietary/vendor/etc/.tp/thermal.policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.policy.conf \
     vendor/amazon/cronos/proprietary/etc/audio_device.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_device.xml \
     vendor/amazon/cronos/proprietary/etc/audio_device_max98396.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_device_max98396.xml \
     vendor/amazon/cronos/proprietary/etc/audio_device_rt5616.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_device_rt5616.xml \
